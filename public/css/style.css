@@ -45,6 +45,9 @@ body {
   font-size: 1.2rem;
 }
 
+.logo {
+  margin: 0 auto;
+}
 .navbar a:hover {
   color: var(--primary-color);
 }
@@ -114,4 +117,18 @@ img {
   font-size: 1.6rem;
   text-align: center;
   margin-top: 1rem;
+}
+
+@media screen and (max-width: 720px) {
+  html {
+    font-size: 62.5%;
+  }
+  .showcase form input,
+  form select {
+    width: 80vw;
+    margin: 10px auto;
+  }
+  img {
+    width: 100%;
+  }
 }
